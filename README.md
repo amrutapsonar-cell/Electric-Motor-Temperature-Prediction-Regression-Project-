@@ -60,9 +60,4 @@ The dataset was split 80/20 using `GroupShuffleSplit` grouped by `profile_id`.
 
 ---
 
-## 6. How to Run the Project
 
-### Step 1: Train the Model
-Place `Regression.db` inside the `data/` folder and run:
-```bash
-python train.py
