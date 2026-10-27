@@ -59,7 +59,3 @@ The dataset was split 80/20 using `GroupShuffleSplit` grouped by `profile_id`.
 * **R² Score:** `0.9800`
 
 ---
-
-R2 Score: 0.9800
-MAE: 1.4498
-RMSE: 2.8196
