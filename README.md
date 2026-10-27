@@ -54,10 +54,12 @@ To ensure identical data processing during both model training and inference (`p
 
 ## 5. Evaluation of Model
 The dataset was split 80/20 using `GroupShuffleSplit` grouped by `profile_id`.
-* **Root Mean Squared Error (RMSE):** `[Insert RMSE from train.py output, typically ~4.5 - 6.5 °C]`
-* **Mean Absolute Error (MAE):** `[Insert MAE from train.py output, typically ~3.2 - 4.8 °C]`
-* **R² Score:** `[Insert R2 from train.py output, typically ~0.88 - 0.94]`
+* **Root Mean Squared Error (RMSE):** `2.8196°C`
+* **Mean Absolute Error (MAE):** `1.4498°C`
+* **R² Score:** `0.9800`
 
 ---
 
-
+R2 Score: 0.9800
+MAE: 1.4498
+RMSE: 2.8196
